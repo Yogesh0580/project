@@ -1,0 +1,22 @@
+# dependencies
+/node_modules
+/myapp/node_modules
+/myapp/.pnp
+/myapp/.pnp.js
+
+
+#testing
+/myapp/coverage
+
+
+#production
+/myapp/build
+
+
+#misc
+/backend/config/config.env
+/myapp/.DS_Store
+/myapp/.env.local
+/myapp/.env.development.local
+/myapp/.env.test.local
+/myapp/.env.production.local

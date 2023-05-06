@@ -1,0 +1,75 @@
+.speedDial{
+    position: fixed;
+    right: 3vmax;
+    top: 1vmax;
+}
+
+.speedDialIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+
+
+
+
+/* Header CSS */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: rgb(20, 20, 20);
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0px 20px;
+}
+
+#navbar li a {
+   text-decoration: none;
+   font-size: 1.3rem;
+   color: white;
+   font-weight: 500;
+   transition: 0.3s ease-in-out;
+   font-family: "Roboto";
+}
+#navbar li a:hover{
+    color: #17cf97;
+}
+
+
+@media screen and (max-width: 600px) {
+    nav{
+    flex-direction: column;
+    padding: 1px 1px;
+    }
+
+    nav div {
+        width: 100%;
+        margin: auto;
+    }
+
+    #navbar li {
+        padding: 2px 4px;
+        margin: 0px 3px;
+        
+    }
+
+    #navbar li a{
+        font-size: 15px;
+        font-weight: 300;
+    }
+}
+
+
+
